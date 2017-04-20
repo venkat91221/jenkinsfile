@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Shell') {
       steps {
-        sh 'echoooo Hello World'
+        sh 'echo Hello World'
       }
     }
     stage('EMAIL') {
