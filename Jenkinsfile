@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Stage1') {
       steps {
-        echo 'ssss'
+        echo 'stage1 completed  successfully'
       }
     }
     stage('Shell') {
@@ -13,7 +13,7 @@ pipeline {
     }
     stage('EMAIL') {
       steps {
-        emailext(subject: 'Sample', body: 'Sample', to: 'root@localhost')
+        emailext(subject: 'Sample', body: 'Sample', to: 'sathu@localhost')
       }
     }
   }
