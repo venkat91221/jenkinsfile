@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage('Stage1') {
       steps {
-        echo 'update completed  successfully'
+        echo 'completed  successfully'
       }
     }
     stage('Shell') {
       steps {
-        sh 'echo Hello World'
+        sh 'echo Hello Devops'
       }
     }
     stage('EMAIL') {
